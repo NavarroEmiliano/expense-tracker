@@ -25,6 +25,7 @@ const TransactionForm = () => {
           onChange={e => setDescription(e.target.value)}
           value={description}
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
+          name='description'
         />
         <input
           type='number'
@@ -33,6 +34,7 @@ const TransactionForm = () => {
           onChange={e => setAmount(e.target.value)}
           value={amount}
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
+          name='amount'
         />
         <button className='bg-indigo-700 text-white px-3 py-2 rounded-lg block mb-2 w-full'>
           Add Transaction
