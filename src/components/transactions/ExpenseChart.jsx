@@ -41,8 +41,6 @@ const ExpenseChart = () => {
             duration: 300
           }}
           labels={({ datum }) => `${datum.y.toFixed(2)}%`}
-          width='400'
-          height='400'
           padding={65}
           
           labelComponent={
