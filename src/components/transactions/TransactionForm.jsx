@@ -34,7 +34,7 @@ const TransactionForm = () => {
       <form onSubmit={onSubmit}>
         <input
           type='text'
-          placeholder='Enter a description'
+          placeholder='Description'
           onChange={e => setDescription(e.target.value)}
           value={description}
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
@@ -44,7 +44,7 @@ const TransactionForm = () => {
         <input
           type='number'
           min='0'
-          placeholder='Enter a value'
+          placeholder='Value'
           step='0.01'
           onChange={e => setAmount(e.target.value)}
           value={amount}
