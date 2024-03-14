@@ -40,6 +40,7 @@ const TransactionForm = () => {
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
           name='description'
           autoComplete='off'
+          maxLength={20}
         />
         <input
           type='number'
@@ -50,6 +51,8 @@ const TransactionForm = () => {
           value={amount}
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
           name='amount'
+          max={999999999999999}
+      
         />
         <div className='flex flex-col sm:flex-row mt-3'>
           <div className='bg-green-600 text-white mr-1 rounded-lg block mb-2 w-full'>
