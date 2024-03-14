@@ -39,6 +39,7 @@ const TransactionForm = () => {
           value={description}
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
           name='description'
+          autoComplete='off'
         />
         <input
           type='number'
