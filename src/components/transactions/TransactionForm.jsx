@@ -52,7 +52,7 @@ const TransactionForm = () => {
           name='amount'
         />
         <div className='flex flex-col sm:flex-row mt-3'>
-          <div className='bg-green-700 text-white mr-1 rounded-lg block mb-2 w-full'>
+          <div className='bg-green-600 text-white mr-1 rounded-lg block mb-2 w-full'>
             <button
               name='+'
               onClick={symbolHandle}
