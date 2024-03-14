@@ -5,9 +5,9 @@ const Balance = () => {
   const amounts = transactions.map(transaction => transaction.amount)
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2)
   return (
-    <div className='flex justify-between'>
+    <div className='flex flex-col sm:flex-row justify-between'>
       <h3>Your Balance</h3>
-      <h1>${total}</h1>
+      <h1 className='flex flex-col-reverse'>${total}</h1>
     </div>
   )
 }

@@ -20,7 +20,7 @@ const App = () => {
               <Balance />
               <TransactionForm />
             </div>
-            <div className='flex justify-center items-end  w-2/3 flex-col'>
+            <div className='flex justify-start items-end  w-2/3 flex-col'>
               <ExpenseChart />
               <TransactionList />
             </div>
